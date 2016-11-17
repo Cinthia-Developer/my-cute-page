@@ -1,4 +1,89 @@
 /* Inserta tu CSS aqui */
-fannn{
+/*----------------------------header---------------------------*/
+header ul{
+    list-style: none;
+    text-align: center;
+    margin: 10px;
+}
+header ul li{
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 20px;
     
+}
+/*-------------------------hero---------------------------------*/
+.portada{
+    background-image: url(../images/portada.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+.hero .portada h1,h3{
+    color: white;
+    margin: 100px;
+    font-family: cursive;
+}
+.hero .portada img{
+    border-radius: 100%;
+    border: 5px solid black;
+    position: relative;
+    left: 47%;
+    top: 60px;
+}
+.hero .portada h1{
+   font-size: 50px;
+   text-align: center;
+}
+/*-----------------------------------about-----------------------*/
+.about .cuerpo{
+    background-image: url(../images/tile1.png); 
+    padding: 10px 100px;
+}
+.about .cuerpo h4{
+    text-align: center;
+    color: violet;
+    font-size: 30px;
+}
+.about .cuerpo img{
+    width: 160px;
+    height: 200px;
+    float: left;
+    margin: 1px 20px;
+    border: 2px solid black;
+}
+.about .cuerpo p{
+    padding: 10px 85px 10px 100px;
+    height: 200px;
+}
+/*-------------------------------------*/
+.favoritos .favo{
+    height: 180px;
+    margin: 10px 150px;
+}
+.favoritos h2, h4{
+    color: violet;
+    text-align: center;
+}
+.favoritos .favo .col-md-3 img{
+    width: 100%;
+    height: 180px;
+    border-radius: 100%;
+    border: 2px solid violet;
+}
+/*----------footer-------------------------*/
+.ultimo{
+    background-image: url(../images/tile2.png);
+    height: 270px;
+}
+.ultimo h3{
+    color: violet;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+footer .imagenes{
+    margin:20px 350px;
+}
+footer .imagenes img{
+    margin: 5px;
 }
