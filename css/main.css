@@ -1,5 +1,8 @@
 /* Inserta tu CSS aqui */
 /*----------------------------header---------------------------*/
+*{
+    font-family: cursive;
+}
 header ul{
     list-style: none;
     text-align: center;
@@ -12,7 +15,7 @@ header ul li{
     
 }
 /*-------------------------hero---------------------------------*/
-.portada{
+.hero{
     background-image: url(../images/portada.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,7 +38,7 @@ header ul li{
    text-align: center;
 }
 /*-----------------------------------about-----------------------*/
-.about .cuerpo{
+.about {
     background-image: url(../images/tile1.png); 
     padding: 10px 100px;
 }
@@ -71,7 +74,7 @@ header ul li{
     border: 2px solid violet;
 }
 /*----------footer-------------------------*/
-.ultimo{
+footer{
     background-image: url(../images/tile2.png);
     height: 270px;
 }
